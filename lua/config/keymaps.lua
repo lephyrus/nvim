@@ -5,6 +5,6 @@ local map = vim.keymap.set
 
 map("n", "gY", '<cmd>:let @+ = expand("%")<cr>', { desc = "Yank relative buffer path" })
 
-map("n", "<leader>gd", function()
+map("n", "<leader>fd", function()
   Snacks.terminal("lazydocker", { interactive = true })
 end, { desc = "LazyDocker" })
