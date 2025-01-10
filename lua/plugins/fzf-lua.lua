@@ -10,6 +10,9 @@ return {
     },
   },
   opts = {
+    fzf_opts = {
+      ["--history"] = vim.fn.stdpath("data") .. "/fzf-lua-history",
+    },
     grep = {
       rg_glob = true,
     },
