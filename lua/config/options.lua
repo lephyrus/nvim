@@ -3,3 +3,10 @@
 -- Add any additional options here
 
 LazyVim.terminal.setup("fish")
+
+vim.diagnostic.config({
+  virtual_lines = {
+    current_line = true,
+  },
+  virtual_text = false,
+})
