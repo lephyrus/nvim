@@ -1,14 +1,14 @@
 {
-  "angular-language-server": "21.0.1",
+  "angular-language-server": "21.0.5",
   "docker-compose-language-service": "0.4.0",
   "dockerfile-language-server": "0.15.0",
   "eslint-lsp": "4.10.0",
   "hadolint": "v2.14.0",
   "json-lsp": "4.10.0",
-  "lua-language-server": "3.16.0",
+  "lua-language-server": "3.16.1",
   "markdown-toc": "1.2.0",
-  "markdownlint-cli2": "0.18.1",
-  "marksman": "2025-11-30",
+  "markdownlint-cli2": "0.20.0",
+  "marksman": "2025-12-13",
   "prettier": "3.7.4",
   "shfmt": "v3.12.0",
   "sqlfluff": "3.5.0",
@@ -16,7 +16,7 @@
   "svelte-language-server": "0.17.22",
   "tailwindcss-language-server": "0.14.29",
   "taplo": "0.10.0",
-  "tree-sitter-cli": "v0.25.10",
+  "tree-sitter-cli": "v0.26.3",
   "vtsls": "0.2.9",
   "yaml-language-server": "1.19.2"
 }
