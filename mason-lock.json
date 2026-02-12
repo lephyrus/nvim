@@ -1,5 +1,4 @@
 {
-  "angular-language-server": "21.1.1",
   "docker-compose-language-service": "0.4.0",
   "dockerfile-language-server": "0.15.0",
   "hadolint": "v2.14.0",
@@ -19,3 +18,4 @@
   "vtsls": "0.3.0",
   "yaml-language-server": "1.19.2"
 }
+
