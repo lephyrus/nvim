@@ -14,4 +14,8 @@ return {
       },
     },
   },
+  keys = {
+    { "<leader>sg", false },
+    { "<leader>sc", false },
+  },
 }
