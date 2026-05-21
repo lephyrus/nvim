@@ -33,7 +33,7 @@ return {
     {
       "<leader>sg",
       function()
-        require("fff").live_grep()
+        require("fff").live_grep({ cwd = vim.fn.getcwd() })
       end,
       desc = "LiFFFe grep",
     },
@@ -41,6 +41,7 @@ return {
       "<leader>sz",
       function()
         require("fff").live_grep({
+          cwd = vim.fn.getcwd(),
           grep = {
             modes = { "fuzzy", "plain" },
           },
@@ -51,7 +52,7 @@ return {
     {
       "<leader>sc",
       function()
-        require("fff").live_grep({ query = vim.fn.expand("<cword>") })
+        require("fff").live_grep({ cwd = vim.fn.getcwd(), query = vim.fn.expand("<cword>") })
       end,
       desc = "Search current word",
     },
